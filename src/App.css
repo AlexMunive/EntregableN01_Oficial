@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+}
+h1{
+   margin: 0;
+   font-size: 18px;
+   padding-top: 5px;
+   text-align: center;
+   font-family:'Times New Roman', Times, serif;
+}
+h2{
+    margin: 0;
+    font-size: 16px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    padding-bottom: 6px;
+}
+.App{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: white;
+    box-shadow: 1px 1px 20px #0005;
+    overflow: hidden;
+    width: 550px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card__quote{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+.bxs-quote-left{
+    font-size: 50px;
+    padding-right: 10px;
+}
+.card__author{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: flex-end;
+    padding: 10px;
+
+}
+.btn{
+    color: white;
+    border: 0;
+    width: 38px;
+    height: 38px;
+    aspect-ratio: 1;
+    font-size: 28px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #0007;
+    transition: box-shadow 200ms ease;
+}
+.btn:hover {
+    box-shadow: 0 0 5px;
+    transition: box-shadow 200ms ease;
+}
